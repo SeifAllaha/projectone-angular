@@ -1,0 +1,173 @@
+/* ster section1 */
+
+.section1{
+  background-image:url("./../../assets/frontend/img/photo-1526948531399-320e7e40f0ca.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 100vh;
+
+}
+.container{
+  padding-right:6px !important;
+}
+
+.section1 .img {
+  height: 100vh;
+  background-color:rgba(66, 152, 186, 0.371);
+}
+
+
+.section1 .img h1{
+  padding-top: 5px;
+  text-transform: capitalize;
+  color:black;
+  font-size: 50px;
+ font-weight: bold ;
+ text-align: center;
+
+}
+.section1 .img p {
+  font-size: 30px;
+  font-weight: lighter ;
+  text-align: center;
+   margin-top: 25px;
+}
+.section1 .img .text button{
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #8fc04e;
+    transition: all 0.5s;
+
+}
+.section1 .img .text  button:hover{
+    background-color: #72c04c;
+}
+/* end section1  */
+
+
+/* ========================================================================================================================================== */
+
+
+ /* ster section2 */
+ section2{
+  height: 100vh;
+}
+@media (max-width : 425px){
+  section2 {
+    height: 142vh!important ;
+  }
+}
+
+ /* end  section2 */
+
+
+ /* =========================================================================================================================================== */
+
+
+ /* ster section3 */
+ section3{
+  height: 110vh;
+}
+@media (max-width : 425px){
+  section3 {
+    height: 280vh!important ;
+  }
+}
+
+
+
+  /* end  section3 */
+
+
+  /* =================================================================================================================== */
+
+
+  /* ster   section4*/
+.section4{
+    height: 130vh;
+}
+.section4 .row {
+    height: 150%;
+}
+.img-fluid-img{
+  width:510px;
+  height: 550px;
+  border-radius: 15px;
+}
+.section4 .section4-img {
+    height: 100%;
+    background-size:100% 100%;
+
+    position: relative;
+}
+.section4 .section4-about p {
+ font-size: 20px;
+}
+@media (max-width : 425px){
+  section4  {
+    height: 280vh!important ;
+  }
+}
+/* end section4 */
+
+
+/* ========================================================================================================================== */
+
+
+/* ster section5*/
+.section5{
+  height: 85vh;
+}
+.section5 h1{
+font-size :3.2rem;
+margin-left: 5%;
+}
+.section5 .image-centainer {
+  position: relative;
+  display: inline-block;
+
+}
+.section5 .image-container img{
+  width: 120% !important;
+  height: 45vh !important;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+
+}
+
+
+.section5 .image-text{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0,0, 0.5);
+}
+.section5 .image-text h3 {
+  font-size: 2.2rem;
+  color: white !important;
+}
+
+
+/* end  section5 */
+
+
+/* ================================================================================================================== */
+
+
+/* ster section7 */
+.section7{
+  height: 40vh;
+}
